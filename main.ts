@@ -3,7 +3,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const text =
-  "Investors, our TAM is every plaza lunch; 4,000 daily pecks prove traction; facial recognition is our moat. We're raising seed from anyone who doesn't flinch.";
+  "Investors, city pigeons remember who skips lunch. Fund our facial-recognition moat; your guilty flinch is recurring revenue.";
 
 const length = [...text].length;
 if (length < 1 || length > 200 || text.trim().length === 0) {
